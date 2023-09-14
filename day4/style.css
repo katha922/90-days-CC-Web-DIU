@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(87, 167, 190);
+}
+.text{
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+    
+}
+.input-box{
+    margin: 45px 400px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.3);
+}
+.input-box input{
+    flex:1;
+    font-size: 24px;
+    border-radius: 5px;
+    margin-right: 25px;
+    padding: 15px 20px;
+    border: none;
+    outline: 0;
+    position: relative;
+}
+.input-box button{
+    margin-right: 25px;
+    padding:22px 30px ;
+    border: none;
+    outline: 0;
+    font-weight: 500;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+}
+#result{
+    font-size: 30px;
+}
