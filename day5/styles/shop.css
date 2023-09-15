@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner-container{
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+}
+.banner-image{
+    width: 400px;
+    margin-bottom: 0px;
+}
+.heading{
+    margin-bottom:30px ;
+    color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+ font-weight: 800;
+line-height: normal;
+}
+.info{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 20px;  
+}
+.btn-primary{
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 8px;
+background: #E55473;
+color: white;
+border:0 ;
+}
+.title-info{
+    text-align: center;
+    margin-top: 178px;
+    margin-bottom:48px ;
+}
+
+.featured{
+    display: flex;
+    
+    margin: auto;
+    justify-content: space-around;
+    margin-bottom:128px ;
+    
+}
+.featured-pic-1{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+width: 364px;
+height: 438px;
+margin: 48px 5px 0px 100px;
+}
+.featured-pic-2{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+width: 364px;
+height: 438px;
+margin: 48px 5px 0px 0px;
+}
+.featured-pic-3{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+width: 364px;
+height: 438px;
+margin: 48px 100px 0px 0px;
+}
+.pic-1{
+    width: 210px;
+height: 328px;
+flex-shrink: 0;
+padding: 110px 78px 67px 76px;
+}
+.pic-2{
+    width: 270px;
+height: 270px;
+flex-shrink: 0;
+padding:117px 47px 118px 47px ;
+}
+.pic-3{
+    width: 214px;
+    height: 371px;
+    flex-shrink: 0;
+    padding: 67px 75px;
+}
+.flower-name{
+    display: inline-flex;
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+}
+.deal-container{
+    
+    margin-bottom: 120px;
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+display: flex;
+justify-content: space-around;
+padding: 100px 50px;
+text-align: center;
+    
+}
+.deal-text{
+    margin-top: 200px;
+    
+}
+.hot-deal{
+    text-align: center;
+}
+.other-pic{
+    width: 300px;
+}
+.title-info{
+    text-align: center;
+}
+.off{
+    color: #E55473;
+}
+.instra-pic{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 128px;
+}
+.extra{
+    padding: 131px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 100px 150px;
+}
+
+.background-container{
+    height: 60vh;
+    background-image: url("../images/rectangle9.png");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    padding-top:122px ;
+}
+#email{
+    padding: 13px 513px 13px 22px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+border: none;
+}
+
+.footer-container{
+    
+    background: #111010;
+    padding: 128px;
+    margin-top:128px ;
+}
+.footer-text{
+    text-align: center;
+    color: white;
+    font-family: Lato;
+}
+.flower{
+    color: #E55473;
+}
+
